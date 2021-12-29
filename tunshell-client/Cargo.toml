@@ -33,7 +33,7 @@ libc = "0.2.71"
 async-tungstenite = { version = "0.8.0", features=["tokio-runtime"] } #no-wasm
 
 [target.'cfg(not(openssl))'.dependencies]
-ring = "0.16.17"
+ring = "0.16.20"
 webpki = "0.21.2"
 webpki-roots = "0.19.0"
 tokio-rustls = { version = "0.13.1", features=["dangerous_configuration"] }
